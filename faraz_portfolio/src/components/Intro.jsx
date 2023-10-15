@@ -3,25 +3,15 @@ import React from 'react'
 const Intro = () => {
   return (
     <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
-      <h1 className='text-4xl md:text-7xl mb-1 md:mb-3 font-bold'>Farazuddin Mohammad</h1>
-      <p className='text-base md:text-xl mb-3 font-medium'>Software Engineer & Full Stack Developer</p>
-      <p className="text-sm max-w-xl mb-6 font-bold">
-            I'm an indie full-stack developer and content creator building my
-            version of the digital world one step at a time. All coding projects
-            are built from the ground up, from planning and designing all the way
-            to solving real-life problems with code.
+      <h1 className='text-4xl md:text-7xl mb-1 md:mb-3 font-bold'>Farazuddin Mohammad 🧑🏽‍💻</h1>
+      <p className='text-base md:text-xl mb-3 font-medium'>DevOps + Full Stack Engineer </p>
+      <p className="text-md max-w-xl mb-6" >
+              I'm an enthusiastic Full Stack Software Engineer, with a keen focus on DevOps and Backend Web Development, proudly based in sunny San Jose, California. My passion lies in automating tedious tasks using the power of Python, crafting dynamic websites with JavaScript, and conquering algorithmic challenges in the world of Java.
+              <br /> <br/>
+
+              I bring to the table a year of hands-on experience as a dedicated DevOps Engineer, and I've also spent six thrilling months as a software engineering intern, all while I continue my journey as a student at the prestigious San Jose State University (Go Spartans!). My heart beats for technology, and I can't wait to take on the next exciting challenge that comes my way!
             <br />
             
-            My github Link is{' '}
-            <a
-               href="https://github.com/MDfarazuddin99"
-               target="_blank"
-               className="text-cyan-600 hover:underline underline-offset-2 decoration-2 decoration-red-600"
-               rel="noreferrer noopener"
-            >
-              Faraz
-            </a>{' '}
-            to more than 400k subscribers.
          </p>
     </div>
   )

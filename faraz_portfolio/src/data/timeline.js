@@ -1,10 +1,10 @@
 export default [
     {
         year: '2022',
-        title: "Master's Degreen in Software Engineering" ,
-        duration: 'Graduate Education',
+        title: "Master's Degreen in Software Engineering 🎓" ,
+        duration: 'Graduating in May 2024 ',
         details:
-            "Course Work: Software Systems Engineering, Cloud Technologies, Virtualization Technologies.",
+            "Course Work: Software Systems Engineering, Cloud Technologies, Virtualization Technologies",
     },
     {
          year: '2021',
@@ -15,16 +15,16 @@ export default [
      },
      {
          year: '2020',
-         title: 'Software Engineer Intern at Ericsson',
+         title: 'DevOps Engineer Intern at Ericsson ',
          duration: '6 months',
          details:
              'Designed and enhanced invoice querying microservice using GraphQL and NodeJS, increasing efficiency by 40%. Performed load testing using Jmeter; created test plans and simulated realistic load scenarios. Coded 10+ RESTful services for extracting structured data from massive XML file with Xpath queries. Executed and tested machine learning models for detecting malicious invoices; performed necessary feature engineering improving accuracy by 15%; performed root cause analysis using SHAP API.',
      },
      {
          year: '2017',
-         title: "Bachelor's Degree in Computer Science",
+         title: "Bachelor's Degree in Computer Science 🎓",
          duration: '4 years',
-         details: 'Bachelors from India in Computer Science',
+         details: "Course Work: Data Structures and Algorithms, Database Management Systems, Distributed Systems",
      },
 
  ]
