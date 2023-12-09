@@ -22,7 +22,7 @@ const TimelineItem = (props) => {
             
             <p className="my-2 text-base font-normal text-stone-500 dark:text-stone-400">
                     <ul className="my-2 text-base font-normal text-stone-500 dark:text-stone-400">
-                    {props.informationArray.map((detail, index) => (<li key={index}>{detail}</li>)}
+                    { props.informationArray.map((detail, index) => (<li key={index}>{detail}</li>)) }
                     
                 </ul>
              </p> 
