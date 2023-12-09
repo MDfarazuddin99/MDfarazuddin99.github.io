@@ -1,5 +1,13 @@
 export default [
     {
+        title: 'BoltEV',
+        imgUrl: 'https://github.com/MDfarazuddin99/BoltEV/blob/main/thumbnail.png',
+        details: "Android Application for managing EV Infrastructure and EVs",
+        stack: ["Android", 'Kotlin', "Django", "Docker", "Microservices"],
+        link: 'https://github.com/MDfarazuddin99/BoltEV/',
+        live: true,
+    },    
+    {
         title: 'GymManagement',
         imgUrl: 'https://github.com/MDfarazuddin99/gym-management/blob/main/Screenshot%202023-10-14%20at%204.31.17%20PM.png?raw=true',
         details: "Implemented an end-to-end membership and activity management system for gym, supporting 3 distinct user roles, following MVC architecture",

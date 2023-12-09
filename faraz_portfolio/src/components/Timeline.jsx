@@ -1,4 +1,3 @@
-import React from 'react'
 import timeline from '../data/timeline';
 import TimelineItem from './TimelineItem';
 import Title from './Title';
@@ -10,10 +9,12 @@ const Timeline = () => {
           <Title>Timeline</Title>
           {timeline.map(item => (
               <TimelineItem 
+                key = {uuidv4()}
                 year={item.year}
                 title={item.title}
                 duration={item.duration}
                 details={item.details}
+                informationArray = {item.informationArray}
               />
           ))}
         </div>

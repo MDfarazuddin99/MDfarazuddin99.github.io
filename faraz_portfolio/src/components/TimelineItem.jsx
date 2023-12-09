@@ -1,8 +1,7 @@
-import React from 'react'
-import Title from './Title';
 import { v4 as uuidv4 } from 'uuid';
 
 const TimelineItem = (props) => {
+    console.log(props.informationArray)
   return (
     <ol className="flex flex-col md:flex-row relative border-l border-stone-200 dark:border-stone-700">
     <li key={uuidv4()} className="mb-10 ml-4">
@@ -19,10 +18,14 @@ const TimelineItem = (props) => {
                 <div className="my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500">
                     {props.duration}
                 </div>
+ 
             
             <p className="my-2 text-base font-normal text-stone-500 dark:text-stone-400">
-                {props.details}
-            </p>
+                    <ul className="my-2 text-base font-normal text-stone-500 dark:text-stone-400">
+                    {props.informationArray.map((detail, index) => (<li key={index}>{detail}</li>)}
+                    
+                </ul>
+             </p> 
             </li>
         </ol>
   )
